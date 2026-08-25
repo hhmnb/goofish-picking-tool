@@ -1,0 +1,36 @@
+﻿# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 打包输出
+dist/
+build/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 本项目关键：浏览器登录数据（含 cookies，切勿上传！）
+data/browser_data/
+
+# 运行日志和结果文件
+data/app.log
+data/results/
+*.tsv
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Playwright 浏览器驱动（体积巨大）
+.local-browsers/
